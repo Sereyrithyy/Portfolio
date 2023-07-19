@@ -103,8 +103,8 @@ input {
 }
 
 .section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .section__title {
@@ -618,13 +618,114 @@ input {
 /*=============== BreakPoints ===============*/
 /* for large devices */
 @media screen and (max-width: 1200px) {
+  :root {
+    --fs-h1: 2.75rem;
+    --fs-h2: 1.75rem;
+    --fs-lg: 1rem;
+    --fs-base: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.687rem;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .home__container {
+    grid-template-columns: 5fr 7fr;
+  }
+  .skills__container,
+  .services__container {
+    grid-template-columns: repeat(2 ,1fr);
+    column-gap: 1.875rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-100%);
+  }
+
+  .nav__list {
+    flex-direction: column;
+    row-gap: 2.125rem;
+    text-align: center;
+  }
+
+  .nav__toggle,
+  .nav__close {
+    display: block;
+  }
+
+  .nav__close {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 8%;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .nav__toggle {
+    color: #111827;
+    font-size: 1.25rem;
+    opacity: 1;
+  }
+
+  .home {
+    padding-top: 5.25rem;
+  }
+
+  .home__img {
+    display: none;
+  }
+
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .project__item,
+  .resume__container,
+  .home__container {
+    grid-template-columns: 1fr;
+  }
+
+  .resume__container {
+    row-gap: 3.75rem;
+  }
+
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 /* for medium devices */
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .skills__container,
+  .services__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__container {
+    row-gap: 3.75rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
