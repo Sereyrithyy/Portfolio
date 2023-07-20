@@ -157,7 +157,9 @@ input {
 }
 
 .nav__link {
-  color: #111827;
+  /* color: #111827; */
+  color: red;
+  /* color: red; */
   font-size: 0.9rem;
   font-weight: var(--bold);
   font-family: var(--mono-font);
@@ -206,7 +208,8 @@ input {
 }
 
 .scroll-header .nav__link {
-  color: var(--text-color) !important;
+  /* color: var(--text-color) !important; */
+  color: red;
 }
 
 .scroll-header .nav {
@@ -219,7 +222,8 @@ input {
 
 .scroll-header .nav__link:hover,
 .scroll-header .active-link {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: red;
 }
 
 
@@ -673,7 +677,7 @@ input {
   }
   
   .nav__link {
-    color: #fcfcfc;
+    color: #111827;
     font-size: 0.9rem;
     font-weight: var(--bold);
     font-family: var(--mono-font);

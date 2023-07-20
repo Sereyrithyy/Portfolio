@@ -14,6 +14,7 @@ if (navClose) {
         navMenu.classList.remove('show-menu');
     })
 }
+
 /*=============== Remove Menu Mobile =============== */
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -24,6 +25,7 @@ function linkAction() {
 }
 
 navLink.forEach((n) => n.addEventListener('click', linkAction));
+
 /*=============== Active Link =============== */
 const navlink = document.querySelectorAll('.nav__link');
 
@@ -52,6 +54,7 @@ function activeWork() {
 }
 
 linkWork.forEach((a) => a.addEventListener('click', activeWork));
+
 /*=============== Mixitup Filter =============== */
 let mixerProjects = mixitup('.projects__container', {
     selectors: {
@@ -61,6 +64,7 @@ let mixerProjects = mixitup('.projects__container', {
         duration: 300
     }
 });
+
 /*=============== Testimonials Swiper =============== */
 
 /*=============== Contact Form =============== */
