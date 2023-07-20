@@ -749,5 +749,15 @@ input {
 
 /* for small devices */
 @media screen and (max-width: 350px) {
-  
+  :root {
+    --fs-h1: 2rem
+  }
+
+  .home__work {
+    font-size: var(--fs-sm);
+  }
+
+  .home__list {
+    font-size: 0.875rem;
+  }
 }
