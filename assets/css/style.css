@@ -677,7 +677,8 @@ input {
   }
   
   .nav__link {
-    color: #111827;
+    /* color: #111827; */
+    color: red;
     font-size: 0.9rem;
     font-weight: var(--bold);
     font-family: var(--mono-font);
@@ -703,6 +704,7 @@ input {
   .nav__toggle {
     color: #111827;
     font-size: 1.25rem;
+    cursor: pointer;
     opacity: 1;
   }
 
