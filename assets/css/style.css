@@ -734,6 +734,9 @@ input {
 }
 
 @media screen and (max-width: 576px) {
+  :root {
+    --fs-h1: 2rem
+  }
   .home {
     padding-top: 4.4rem;
   }
