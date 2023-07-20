@@ -1,3 +1,19 @@
+/*=============== Show Menu =============== */
+const navMenu = document.getElementById('nav-menu');
+navToggle = document.getElementById('nav-toggle'),
+navClose = document.getElementById('nav-close');
+
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu');
+    })
+}
+
+if (navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu');
+    })
+}
 /*=============== Active Link =============== */
 const navlink = document.querySelectorAll('.nav__link');
 
@@ -17,7 +33,7 @@ function scrollHeader() {
 
 window.addEventListener('scroll', scrollHeader);
 
-/*=============== Active Link =============== */
+/*=============== Active Project =============== */
 const linkWork = document.querySelectorAll('.category__btn');
 
 function activeWork() {
