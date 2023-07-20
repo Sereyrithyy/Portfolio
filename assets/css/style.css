@@ -671,6 +671,16 @@ input {
     row-gap: 2.125rem;
     text-align: center;
   }
+  
+  .nav__link {
+    color: #fcfcfc;
+    font-size: 0.9rem;
+    font-weight: var(--bold);
+    font-family: var(--mono-font);
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.3s;
+  }
 
   .nav__toggle,
   .nav__close {
