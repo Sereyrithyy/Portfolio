@@ -14,6 +14,16 @@ if (navClose) {
         navMenu.classList.remove('show-menu');
     })
 }
+/*=============== Remove Menu Mobile =============== */
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu');
+    // when we click on each link, we remove the show-menu clss
+    navMenu.classList.remove('show-menu');
+}
+
+navLink.forEach((n) => n.addEventListener('click', linkAction));
 /*=============== Active Link =============== */
 const navlink = document.querySelectorAll('.nav__link');
 
