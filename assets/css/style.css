@@ -11,7 +11,7 @@
   --text-color-alt: #999;
   --bg-color: #fff;
   --bg-color-alt: #e9ecef;
-  --border-color: #111827;
+  --border-color: #f1f1f1;
 
   /*========== Font and typography ==========*/
   --roboto-font: 'Roboto', sans-serif;
@@ -501,7 +501,7 @@ input {
 
 /*=============== Contact ===============*/
 .contact {
-  background-color: #f1f1f1;
+  background-color: #111827;
   background-position: 50%;
   position: relative;
 }
@@ -534,7 +534,7 @@ input {
 .contact__input,
 .contact__form-tile,
 .foother__copy {
-  color: #111827;
+  color: #f1f1f1;
   font-family: var(--mono-font);
 }
 
@@ -565,8 +565,9 @@ input {
   position: relative;
 }
 
-.contact__form-tile {
+.contact__form-title {
   margin-bottom: 1.25em;
+  color: #f1f1f1;
 }
 
 .contact__input-div {
@@ -590,7 +591,7 @@ input {
   bottom: 33%;
   left: 0;
   font-family: var(--mono-font);
-  color: #111827;
+  color: #f1f1f1;
 }
 
 .color-light {
@@ -726,9 +727,20 @@ input {
   .skills__container {
     row-gap: 3.75rem;
   }
+
+  .project__data {
+    padding: 2rem 1.25rem 1.5rem 1.25rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .home {
+    padding: 4.4rem;
+  }
+
+  .project__categories {
+    column-gap: 1.5rem;
+  }
 }
 
 /* for small devices */
