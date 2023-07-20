@@ -13,3 +13,9 @@
 /*=============== Contact Form =============== */
 
 /*=============== Style Switcher =============== */
+const styleSwitcherToggle = document.querySelector('.style__switcher-toggle'),
+styleSwitcher = document.querySelector('.style__switcher');
+
+styleSwitcherToggle.addEventListener('click', () => {
+    styleSwitcher.classList.toggle('open');
+})
