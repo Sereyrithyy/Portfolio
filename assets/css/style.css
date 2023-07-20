@@ -735,14 +735,19 @@ input {
 
 @media screen and (max-width: 576px) {
   .home {
-    padding: 4.4rem;
+    padding-top: 4.4rem;
   }
 
   .project__categories {
     column-gap: 1.5rem;
   }
+
+  .tags li {
+    margin-bottom: 0.6rem;
+  }
 }
 
 /* for small devices */
 @media screen and (max-width: 350px) {
+  
 }
