@@ -159,7 +159,7 @@ input {
 
 .nav__link {
   /* color: #111827; */
-  color: red;
+  color: #fff;
   /* color: red; */
   font-size: 0.9rem;
   font-weight: var(--bold);
@@ -210,7 +210,7 @@ input {
 
 .scroll-header .nav__link {
   /* color: var(--text-color) !important; */
-  color: red;
+  color: #fff;
 }
 
 .scroll-header .nav {
@@ -224,13 +224,13 @@ input {
 .scroll-header .nav__link:hover,
 .scroll-header .active-link {
   /* color: var(--primary-color); */
-  color: red;
+  color: #fff;
 }
 
 
 /*=============== Home ===============*/
 .home{
-  background-color: var(--border-color);
+  background-color: var(--primary-color);
   padding-top: 5.5rem;
   position: relative;
   margin-bottom: 2.5rem;
@@ -258,7 +258,7 @@ input {
 .home__work,
 .home__list,
 .home__social-link {
-  color: #111827;
+  color: #fff;
   font-family: var(--mono-font);
 }
 
@@ -508,7 +508,7 @@ input {
 
 /*=============== Contact ===============*/
 .contact {
-  background-color: #111827;
+  background-color: var(--primary-color);
   background-position: 50%;
   position: relative;
 }
@@ -728,7 +728,7 @@ input {
   
   .nav__link {
     /* color: #111827; */
-    color: red;
+    color: #fff;
     font-size: 0.9rem;
     font-weight: var(--bold);
     font-family: var(--mono-font);
