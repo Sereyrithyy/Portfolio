@@ -105,7 +105,7 @@ const sendEmail = (e) => {
                 // remove message after 5 seconds
                 setTimeout(() => {
                     contactMessage.textContent = '';
-                }, 5000);
+                }, 4000);
             });
     }
 };
