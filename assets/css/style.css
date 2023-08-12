@@ -315,10 +315,12 @@ input {
   border-radius: 1.56rem;
   font-weight: var(--semibold);
   transition: 0.3s;
+  border: 1px solid #fff;
 }
 
 .button:hover {
   background-color: var(--primary-color-alt);
+  color: #fff;
 }
 
 .button--flex {
