@@ -109,7 +109,7 @@ input {
 }
 
 .section__title {
-  line-height: 1.50em;
+  line-height: 1.60em;
   font-weight: var(--medium);
   margin-bottom: 1.15em;
 }
@@ -809,6 +809,10 @@ input {
 
   .project__data {
     padding: 2rem 1.25rem 1.5rem 1.25rem;
+  }
+
+  .section__title {
+    line-height: 2.5em;
   }
 }
 
