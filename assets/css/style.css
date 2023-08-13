@@ -109,7 +109,7 @@ input {
 }
 
 .section__title {
-  line-height: 1.17em;
+  line-height: 1.50em;
   font-weight: var(--medium);
   margin-bottom: 1.15em;
 }
@@ -172,7 +172,7 @@ input {
   opacity: 0.5;
 }
 
-.nav__link::after {
+/* .nav__link::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -182,11 +182,11 @@ input {
   background-color: #111827;
   opacity: 0;
   transition: 0.3s;
-}
+} */
 
-.nav__link:hover::after {
+/* .nav__link:hover::after {
   opacity: 1;
-}
+} */
 
 .nav__close,
 .nav__toggle {
@@ -197,9 +197,9 @@ input {
   opacity: 0.5;
 }
 
-.active-link::after {
+/* .active-link::after {
   opacity: 1;
-}
+} */
 /* Scroll Header */
 .scroll-header {
   position: fixed;
