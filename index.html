@@ -1,520 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--=============== Remixicons ===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-
-    <!--=============== Swiper Css ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-
-    <!--=============== Css ===============-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
-
-    <!--=============== Skin Colors ===============-->
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-1.css"
-      class="alternate-style"
-      title="color-1"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-2.css"
-      class="alternate-style"
-      title="color-2"
-      disabled
-    />
-
-    <title>Rithy - Portfolio</title>
-    <link
-      rel="shortcut icon"
-      href="assets/img/portfolio.png"
-      type="image/x-icon"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website - Html, Css & Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/cb74f774d6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <!--=============== Header ===============-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li>
-              <a href="#home" class="nav__link active-link">Hello</a>
-            </li>
-            <li>
-              <a href="#services" class="nav__link">Services</a>
-            </li>
-            <li>
-              <a href="#resume" class="nav__link">Resume</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="nav__link">Projects</a>
-            </li>
-            <li>
-              <a href="#blog" class="nav__link">Blog</a>
-            </li>
-            <li>
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-          </ul>
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
-          </div>
-        </div>
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-line"></i>
-        </div>
-      </nav>
-    </header>
 
-    <!--=============== Main ===============-->
-    <main class="main">
-      <!--=============== Home ===============-->
-      <section class="home" id="home">
-        <div class="home__container container grid">
-          <img src="assets/img/profile1.jpg" alt="" class="home__img" />
-          <div class="home__data">
-            <h1 class="home__name">Vandy Sereyrithy</h1>
-            <p class="home__work">Web Developer</p>
-            <dl class="home__list">
-              <dt>AGE:</dt>
-              <dd>21</dd>
-              <dt>PHONE:</dt>
-              <dd>(+855)16 727 570</dd>
-              <dt>EMAIL:</dt>
-              <dd>vandysereyrithy123@gmail.com</dd>
-              <dt>ADDRESS:</dt>
-              <dd>Phnom Penh, Cambodia</dd>
-            </dl>
-            <div class="home__socials">
-              <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-github-fill"></i>
-              </a>
-              <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-linkedin-box-fill"></i>
-              </a>
-              <a href="#" target="_blank" class="home__social-link">
-                <i class="ri-facebook-box-fill"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Hello ===============-->
-      <section class="hello section container">
-        <h2 class="section__title">Hi</h2>
-        <p class="hello__details text-lg">
-          I prefer to work in a smaller team, and see the direct impact I have
-          on a project, which is the reason no. 1 why I am applying for the job
-          with you. Other than that I am more or less an ordinary guy, with a
-          girlfriend and a dog, and a passion for model trains. Is there
-          anything else you'd like to know about my life at the moment? 
-          <br><br>
-          Well,
-          I've been working on Web development for haft years now, while still
-          studying at college. Had my own projects, coded mostly in Javascript
-          and Python, but my account on the play store got suspended, for
-          reasons I still fail to understand. But I learned a lot, both at
-          school and while working on the Web. Now I am looking to get a job
-          with a company, and am glad to be interviewing with you here. Apart
-          from coding, I enjoy reading a good book, or a nice evening out with
-          friends. That would do for a short introduction, please tell me if
-          you'd like me to elaborate on anything from my education, or
-          experience with Web
-        </p>
-        <a href="assets/img/Rithy-CV.pdf" class="button button--flex text-sm">
-          <i class="ri-download-line"></i>
-          DOWNLOAD CV
-        </a>
-      </section>
-
-      <!--=============== Services ===============-->
-      <section class="services section container" id="services">
-        <h2 class="section__title">Services</h2>
-
-        <div class="services__container grid">
-          <div class="services__item">
-            <div class="icon__box">
-              <img src="assets/img/web-design.png" class="services__icon" />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">WEB DESIGN</h3>
-            <p class="services__detail">
-              
-            </p>
-          </div>
-
-          <div class="services__item">
-            <div class="icon__box">
-              <img src="assets/img/laptop.png" class="services__icon" />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">WEB DEVELPOMENT</h3>
-            <p class="services__detail">
-              
-            </p>
-          </div>
-
-          <div class="services__item">
-            <div class="icon__box">
-              <img src="assets/img/paint-palette.png" class="services__icon" />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
-            <p class="services__detail">
-              
-            </p>
-          </div>
-
-          <div class="services__item">
-            <div class="icon__box">
-              <img
-                src="assets/img/smartphone-call.png"
-                class="services__icon"
-              />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">RESPONSIVE DEISGN</h3>
-            <p class="services__detail">
-              
-            </p>
-          </div>
-
-          <div class="services__item">
-            <div class="icon__box">
-              <img src="assets/img/verified.png" class="services__icon" />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">BRANDING IDENTITY</h3>
-            <p class="services__detail">
-             
-            </p>
-          </div>
-
-          <div class="services__item">
-            <div class="icon__box">
-              <img src="assets/img/operator.png" class="services__icon" />
-              <div class="services__dot">
-                <span class="dot"></span>
-              </div>
-            </div>
-            <h3 class="services__title text-lg">24/7 SUPPORT</h3>
-            <p class="services__detail">
-              
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Resume ===============-->
-      <section class="section container" id="resume">
-        <h2 class="section__title">Resume</h2>
-
-        <div class="resume__container grid">
-          <div class="resume__data">
-            <h3 class="resume__title text-sm">EDUCATION</h3>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                Bachelor of Software Development, Norton University
-              </h3>
-              <p class="resume__date text-sm">2020 - Present</p>
-            </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                Preas Ang Doung High School
-              </h3>
-              <p class="resume__date text-sm">2014 - 2020</p>
-            </div>
-          </div>
-          <div class="resume__data">
-            <h3 class="resume__title text-sm">ADDITIONAL TRAINING</h3>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                Studied Web Design at Institute of Science and Technology
-                Advance Development - ISTAD
-              </h3>
-              <p class="resume__date text-sm">2022 - 2023</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Skills ===============-->
-      <section class="section container">
-        <h2 class="section__title">Skills</h2>
-
-        <div class="skills__container grid">
-          <div class="skills__content">
-            <h3 class="skills__title text-sm">FRONTEND</h3>
-
-            <div class="skills__list grid">
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">HTML</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">CSS</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">Javascript</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills__content">
-            <h3 class="skills__title text-sm">BACKEND</h3>
-
-            <div class="skills__list grid">
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">PHP</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">Node JS</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">MySql</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Projects ===============-->
-      <section class="work section container" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-
-        <div class="project__categories">
-          <button class="category__btn text-xs active-work" data-filter="all">
-            ALL
-          </button>
-          <button class="category__btn text-xs" data-filter=".web">
-            WEBSITES
-          </button>
-          <button class="category__btn text-xs" data-filter=".app">
-            MOBILE APPS
-          </button>
-        </div>
-
-        <div class="projects__container grid">
-          <div class="project__item grid mix web">
-            <img src="assets/img/project-1.png" class="project__img" />
-
-            <div class="project__data">
-              <h3 class="project__tile text-lg">PHONE SHOP</h3>
-              <p class="project__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet, ut autem doloremque in nam, cupiditate, aut beatae ea
-                quod laudantium ex incidunt error aperiam sapiente dicta at.
-                Obcaecati, enim nulla.
-              </p>
-              <h4 class="project__stack text-xs">USE STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>javascript</li>
-              </ul>
-
-              <a href="" class="project__link text-sm">www.phoneshop.com</a>
-            </div>
-          </div>
-
-          <div class="project__item grid mix app">
-            <img src="assets/img/project-2.png" class="project__img" />
-
-            <div class="project__data">
-              <h3 class="project__tile text-lg">PHONE SHOP</h3>
-              <p class="project__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet, ut autem doloremque in nam, cupiditate, aut beatae ea
-                quod laudantium ex incidunt error aperiam sapiente dicta at.
-                Obcaecati, enim nulla.
-              </p>
-              <h4 class="project__stack text-xs">USE STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>javascript</li>
-              </ul>
-
-              <a href="" class="project__link text-sm">www.phoneshop.com</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Testimonials ===============-->
-      <!-- <section class="testimonials section">
-        
-      </section> -->
-
-      <!--=============== Blog ===============-->
-      <!-- <section class="blog section container" id="blog"></section> -->
-
-      <!--=============== Contact ===============-->
-      <section class="contact section" id="contact">
-        <div class="contact__content container">
-          <div class="contact__container grid">
-            <h2 class="section__title">Get in touch</h2>
-            <!-- <div class="contact__info">
-              <dl class="contact__list">
-                <dt></dt>
-                <dd></dd>
-                <dt></dt>
-                <dd></dd>
-                <dt></dt>
-                <dd></dd>
-              </dl>
-            </div> -->
-
-            <div class="contact__form">
-              <p class="contact__form-title">Contact Us</p>
-
-              <form action="" id="contact-form">
-                <div class="contact__input-div">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    class="contact__input"
-                    id="contact-name"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    class="contact__input"
-                    id="contact-email"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                  <textarea
-                    name="message"
-                    placeholder="Type the message here"
-                    class="contact__input textarea"
-                    id="message"
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                </div>
-
-                <p class="contact__message text-sm" id="contact-message"></p>
-
-                <button type="submit" class="button contact__button">
-                  SUBMIT
-                </button>
-              </form>
-
-              <p class="foother__copy">
-                &copy; 2023 Vandy Sereyrithy. All Rights Reserved
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--=============== Style Switcher ===============-->
-    <div class="style__switcher">
-      <div class="style__switcher-toggle">
-        <i class="ri-settings-4-fill"></i>
-      </div>
-
-      <div class="colors">
-        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      </div>
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn flex-center">
+        <i class="fa-solid fa-arrow-up"></i>
     </div>
+    <!--=======Light/Dark theme button=======-->
+    <div class="theme-btn flex-center">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+    </div>
+    <!--=======Header=======-->
+    <header>
+        <div class="nav-bar">
+            <a href="#" class="logo">RITHY</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn"></div>
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#service">Service</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="nav-menu-btn"></div>
+        </div>
+    </header>
+    <!--=======Home section=======-->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="media-icons">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="info">
+                <h2>Hi, I am RITHY</h2>
+                <h3>Front-end Developer</h3>
+                <p>I create stunning websites for your business, Highly experienced in web design and development.</p>
+                <a href="" class="btn">Download CV <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="home-img">
+                <img src="images/profile1.jpg" alt="">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down ">Scroll Down <i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+    <!--=======About section=======-->
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About Me</h1>
+            <h2 class="section-title-02">About Me</h2>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <!-- <img src="images/about-img.png" alt=""> -->
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                        <h3>I'm Rithy</h3>
+                        <h4>A Lead <span>Front-End Developer</span>  based in <span>Phnom Penh</span></h4>
+                        <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio</p>
+                    </div>
+                    <ul class="professional-list">
+                        <li class="list-item">
+                            <h3>1+</h3>
+                            <span>Years of<br>Experience</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>100</h3>
+                            <span>Happy<br>Customers</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>200</h3>
+                            <span>Success<br>Projects</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Skills section=======-->
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Skills</h1>
+            <h2 class="section-title-02">Skills</h2>
+            <div class="content">
+                <div class="skills-description">
+                    <h3>Education & Skills</h3>
+                    <p>For more than 5 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.</p>
+                </div>
+                <div class="skills-info education-all">
+                    <div class="education">
+                        <h4><label>Education</label></h4>
+                        <ul class="edu-list">
+                            <li class="item">
+                                <span class="year">2020-2021</span>
+                                <p><span>Ph.D in Horriblensess</span>- Harvard University, Cambridge, MA</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2020-2021</span>
+                                <p><span>Ph.D in Horriblensess</span>- Harvard University, Cambridge, MA</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2020-2021</span>
+                                <p><span>Ph.D in Horriblensess</span>- Harvard University, Cambridge, MA</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h4><label>Front-End</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </li>
+                        </ul>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </li>
+                        </ul>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>Javascript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line javascript"></div>
+                            </li>
+                        </ul>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>React JS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line javascript"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h4><label>Back-End</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>PHP</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </li>
+                        </ul>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>MYSQL</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Services section=======-->
 
-    <!--=============== Mixitup ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
+    <!--=======Portfolio section=======-->
+    
+      <!--=======Get-in-touct=======-->
+      
+      <!--=======Our Clients=======-->
 
-    <!--=============== Swiper Js ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--=======Contact section=======-->
 
-    <!--=============== Email Js ===============-->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
+    <!--=======Footer=======-->
 
-    <!--=============== Js ===============-->
-    <script src="assets/js/main.js"></script>
-
-    <!--=============== Common ===============-->
-    <script src="assets/js/common.js"></script>
+    <!--=======External scripts=======-->
+    <script src="js/main.js"></script>
   </body>
 </html>
