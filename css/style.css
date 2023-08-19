@@ -721,7 +721,8 @@ footer a{
   }
 
   .footer-copyright p {
-    font-size: var(--small-font-size);
+    font-size: 1em;
+    text-align: center;
   }
 }
 
