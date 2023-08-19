@@ -719,6 +719,10 @@ footer a{
     background: rgba(255, 255, 255, 0.1);
     margin: 10px 0 22px;
   }
+
+  .footer-copyright p {
+    font-size: var(--small-font-size);
+  }
 }
 
 /*=======Media query max-width 730px=======*/
