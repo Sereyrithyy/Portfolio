@@ -607,6 +607,12 @@ header.sticky .nav-bar {
   padding: 40px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  transform: translateY(-50px);
+  transition: .5s ease;
+}
+
+.portfolio-model.active .portfolio-model-body {
+  transform: translateY(0);
 }
 
 .portfolio-close-btn {
