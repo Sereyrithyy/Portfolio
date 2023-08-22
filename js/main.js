@@ -3,6 +3,7 @@ window.addEventListener("scroll", function() {
     const header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 });
+
 //Portfolio section - Modal
 const portfolioModals = document.querySelectorAll(".portfolio-model");
 const imgCards = document.querySelectorAll(".img-card");
@@ -61,6 +62,7 @@ scrollTopBtn.addEventListener("click", () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 })
+
 //Navigation menu items active on page scroll
 window.addEventListener("scroll", () => {
     const sections = document.querySelectorAll("section");
