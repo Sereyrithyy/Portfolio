@@ -247,6 +247,10 @@ header.sticky .nav-bar {
   max-width: 350px;
 }
 
+.home-container .info span {
+  color: var(--second-color);
+}
+
 .btn {
   background: var(--second-color);
   color: #fff;

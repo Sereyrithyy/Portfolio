@@ -55,7 +55,7 @@
           <a href=""><i class="fab fa-twitter"></i></a>
         </div>
         <div class="info">
-          <h2>Hi, I am RITHY</h2>
+          <h2>Hi, I am <span class="auto-type"></span></h2>
           <h3>Front-end Developer</h3>
           <p>
             I create stunning websites for your business, Highly experienced in
@@ -362,6 +362,16 @@
       </div>
     </footer>
     <!--=======External scripts=======-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["RITHY"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
   </body>
 </html>
