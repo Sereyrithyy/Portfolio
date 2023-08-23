@@ -9,7 +9,7 @@ const portfolioModals = document.querySelectorAll(".portfolio-model");
 const imgCards = document.querySelectorAll(".img-card");
 const portfolioCloseBtns = document.querySelectorAll(".portfolio-close-btn");
 
-var portfolioModal = function (modalClick) {
+let portfolioModal = function (modalClick) {
     portfolioModals[modalClick].classList.add("active");
 }
 
