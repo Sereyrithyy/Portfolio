@@ -370,13 +370,20 @@ header.sticky .nav-bar {
   color: var(--second-color);
 }
 
+.about-info .description h3{
+  width: 24%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--second-color);
+}
+
 .about-info .description p {
   color: var(--third-color);
   font-size: var(--normal-font-size);
   margin-bottom: 15px;
   padding-bottom: 25px;
-  /* border-bottom: 2px solid var(--line-color); */
 }
+
 
 .about-info .professional-list {
   display: flex;
