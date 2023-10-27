@@ -326,21 +326,18 @@ header.sticky .nav-bar {
 }
 
 .section-title-01 {
-  font-size: 4.5rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 2rem;
-  background: linear-gradient(to top, transparent 0%, var(--first-color) 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: .1;
+  color: var(--second-color);
 }
 
-.section-title-02 {
+/* .section-title-02 {
   margin-bottom: 2rem;
   font-size: 2.5em;
   font-weight: 700;
   transform: translateY(-80px);
-}
+} */
 
 .container {
   position: relative;
@@ -378,7 +375,7 @@ header.sticky .nav-bar {
   font-size: var(--normal-font-size);
   margin-bottom: 15px;
   padding-bottom: 25px;
-  border-bottom: 2px solid var(--line-color);
+  /* border-bottom: 2px solid var(--line-color); */
 }
 
 .about-info .professional-list {
