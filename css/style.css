@@ -893,6 +893,10 @@ footer a{
     width: 100%;
   }
 
+  .about-info .description h3 {
+    width: 26%;
+  }
+
   /* .about-info .professional-list {
     flex-direction: column;
   }
@@ -900,9 +904,6 @@ footer a{
   .about-info .professional-list .list-item {
     justify-content: start;
   } */
-  /*=======Get-in-touct=======*/
-
-  /*=======Our clients=======*/
 
   /*=======Contact section=======*/
   .contact .content {
@@ -1004,6 +1005,10 @@ footer a{
 
   .about-info .professional-list .list-item {
     justify-content: start;
+  }
+
+  .about-info .description h3 {
+    width: 82%;
   }
 
   /*=======Get-in-touch section=======*/
