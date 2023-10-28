@@ -675,16 +675,17 @@ header.sticky .nav-bar {
 
 .contact-list li h3 i {
   color: var(--second-color);
-  font-size: 1.3em;
-  margin-right: 10px;
+  font-size: 1em;
+ 
 }
 
 .contact-list li span {
   color: var(--third-color);
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .contact-list li span a {
+  font-size: 1em;
   color: var(--third-color);
 }
 

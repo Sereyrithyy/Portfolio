@@ -110,5 +110,6 @@ ScrollReveal({
 });
 
 //Target elements, and specify options to create reveal animations
-ScrollReveal().reveal('.education, .portfolio', {origin: 'bottom', interval: 200});
+ScrollReveal().reveal('.education', {delay: '200', origin: 'bottom', interval: 200});
+ScrollReveal().reveal('.portfolio', {delay: '200', easing: 'ease-out', interval: 200});
 ScrollReveal().reveal('.home .info h2, .section-title-01', {origin: 'left'});
