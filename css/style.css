@@ -754,7 +754,7 @@ footer a{
   .nav-menu-btn {
     background: url(../images/menu-btn.png) no-repeat;
     filter: var(--color-filter);
-    background-size: 30px;
+    background-size: 35px;
     background-position: center;
     width: 40px;
     height: 40px;
