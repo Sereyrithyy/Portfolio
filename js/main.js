@@ -110,5 +110,5 @@ ScrollReveal({
 });
 
 //Target elements, and specify options to create reveal animations
-ScrollReveal().reveal('.experience-card, .service-card, .education, .portfolio, .img-card', {origin: 'bottom', interval: 200});
-ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', {origin: 'left'});
+ScrollReveal().reveal('.education, .portfolio', {origin: 'bottom', interval: 200});
+ScrollReveal().reveal('.home .info h2, .section-title-01', {origin: 'left'});
