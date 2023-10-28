@@ -449,7 +449,6 @@ header.sticky .nav-bar {
 .edu-list .item {
   background: var(--card-bg-color);
   box-shadow: var(--box-shadow);
-  border-bottom: 3px solid var(--second-color);
   padding: 20px;
   margin-top: 15px;
   border-radius: 6px;
