@@ -571,7 +571,7 @@ header.sticky .nav-bar {
 .contact-list li h3 i {
   color: var(--second-color);
   font-size: 1.3em;
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .contact-list li span {
